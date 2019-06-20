@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
 * main - Print an alphabet in lower and uppercase
 *Return: 0 (success)
 */
