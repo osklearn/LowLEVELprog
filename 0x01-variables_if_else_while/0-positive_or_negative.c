@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
+/**
 * main - Random number and show if is positive or negative
-*Return 0 (success)
+*Return: 0 (success)
 */
 int main(void)
 {
