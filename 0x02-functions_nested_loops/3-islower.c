@@ -2,7 +2,7 @@
 #include <ctype.h>
 /**
 * _islower - chack for lowercase character
-* @c: character reciebed
+* @c: character recieved
 *
 *Return: 1 a letter 0 otherwise
 */
