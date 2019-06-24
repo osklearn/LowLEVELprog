@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* jack_baurer - print every minute of the day of Jack Bauer
+* jack_bauer - print every minute of the day of Jack Bauer
 *
 *Return: nothing
 */
