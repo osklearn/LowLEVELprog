@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
 * print_sign - check the number inserted
-* @n: number reciebed
+* @n: number recieved
 *
 *Return: 1 greater zero  0 is zero -1 less zero
 */
