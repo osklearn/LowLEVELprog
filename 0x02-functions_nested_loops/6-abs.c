@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
 * _abs - takes a number into a absolute
-* @n: number reciebed
+* @n: number recieved
 *
 *Return: 1 a letter 0 otherwise
 */
