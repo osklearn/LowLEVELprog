@@ -9,7 +9,7 @@ This project is about programming in C. Functions, nested loops
 | ----- | ----------- |
 |0-holberton.c | Print "Holberton" using _putchar | 
 | 1-alphabet.c | Prints an alphabet |
-| 2-print_alphabet_x10.c ! print the alphabet 10 times !
+| 2-print_alphabet_x10.c | Print the alphabet 10 times |
 | 3-islower.c | Cheking a lowercase |
 | 4-isalpha.c | Checking alphabet characters |
 | 5-sign.c | Prints the sign of a number|
