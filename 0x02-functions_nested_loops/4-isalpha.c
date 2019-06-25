@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <ctype.h>
 /**
 * _isalpha - chack for aplphabetic character
 * @c: character recieved
@@ -9,7 +8,9 @@
 
 int _isalpha(int c)
 {
-	if (isalpha(c) != 0)
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	else if (c >= 'A' && c <= 'Z')
 		return (1);
 	else
 		return (0);
