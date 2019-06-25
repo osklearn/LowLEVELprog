@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
 * print_last_digit - takes the last digit of a number
-* @n: number recieved
+* @r: number recieved
 *
 *Return: 1 a letter 0 otherwise
 */
