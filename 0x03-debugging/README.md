@@ -3,7 +3,6 @@
 ## Description
 This project is about Debugging
 
-|-----|--------|
 | File | Description |
 | ---- | ----------- |
 | 0-main.c | Print the correct of a Multiple mains |
