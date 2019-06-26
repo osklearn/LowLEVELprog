@@ -10,11 +10,11 @@ int main(void)
 	int i, n, m, sum;
 
 	sum = 0;
-	for (i=0; i < 1024; i++)
+	for (i = 0; i < 1024; i++)
 	{
 		n = i % 3;
 		m = i % 5;
-		if (a == 0 || b == 0)
+		if (n == 0 || m == 0)
 			sum = sum + i;
 	}
 	printf("%d\n", sum);
