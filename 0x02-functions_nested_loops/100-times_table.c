@@ -8,19 +8,19 @@
 void print_times_table(int n)
 {
 	int r, c;
-	int h, d, u, mult;
+	int h, d, u, mul;
 
 	if (n >= 0 && n <= 15)
 	{
 		for (r = 0; r <= n; r++)
 		{
-			for (c = 0; c <=n; c++)
+			for (c = 0; c <= n; c++)
 			{
 				mul = r * c;
 				h = mul / 100;
-				d = mul / 10;
+				d = mul / 10 % 10;
 				u = mul % 10;
-				if ( h == 0 && c != 0)
+				if (h == 0 && c != 0)
 				{
 					_putchar(' ');
 					if (d == 0)
