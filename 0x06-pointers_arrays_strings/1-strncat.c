@@ -17,9 +17,9 @@ int _strlen(char *s)
 
 /**
 * *_strncat - concatenates two strings
-*@dest:
-*@src:
-*@n:
+*@dest: string to print
+*@src: string origin
+*@n: number of bytes
 *Return: dest
 */
 char *_strncat(char *dest, char *src, int n)
