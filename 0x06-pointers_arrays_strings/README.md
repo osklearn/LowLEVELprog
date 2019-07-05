@@ -11,11 +11,7 @@ This project is about programming in C: Pointers, arrays and strings
 | Files | Description |
 | ----- | ----------- |
 | 0-strcat.c | Function that concatenates two strings. This function appends the src string to the dest string, overwriting the terminating null byte (\0) at the end of dest, and then adds a terminating null byte |
-| 1. strncat | Function that concatenates two strings. The _strncat function is similar to the _strcat function, except that
-
-    it will use at most n bytes from src; and
-    src does not need to be null-terminated if it contains n or more bytes |
-
+| 1. strncat | Function that concatenates two strings. The _strncat function is similar to the _strcat function, except that it will use at most n bytes from src; and src does not need to be null-terminated if it contains n or more bytes |
 | 2. strncpy | Function that copies a string. |
 | 3-strcmp.c | Function that compares two strings.The function should work exactly like strcmp |
 | 4-rev_array.c | Function that reverses the content of an array of integers. |
