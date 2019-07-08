@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
-* prinf_diagsums - the sum of two diagonals of a square matrix
+* prin_diagsums - the sum of two diagonals of a square matrix
 *@a: array
 *@size: size of array
 *Return: Nothing
@@ -24,5 +24,5 @@ void print_diagsums(int *a, int size)
 		sum1 = sum1 + a[i];
 		i = i + size - 1;
 	}
-	printf("%d, %d\n", sum, sum1); 
+	printf("%d, %d\n", sum, sum1);
 }
