@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* *_strchr - search the first occurrence of the character in a string pointed 
+* *_strchr - search the first occurrence of the character in a string pointed
 *@s: string pointed
 *@c: character to search
 *Return: s (the first occuerrence of the char)
