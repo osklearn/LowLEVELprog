@@ -14,6 +14,8 @@ This project is about programming in C
 | 0x04-more_functions_nested_loops | Second part of loops, nested loops and functions |
 | 0x05-pinters_arrays_strings | First part of Pointers, arrays and strings |
 | 0x06-pointers_arrays_strings | Second part of Pointers, arrays and strings |
+| 0x07-pointers_arrays_strings | Third part of Poiinters, arrays and strings |
+| 0x08-recursion | Recursion with functions |
 
 ## Author
 
