@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
 * factorial - Calculate the factorial of a given number
-*@:
-*Return: 0 (success)
+*@n: number to calculate the factorial
+*Return: the factorial of a number or -1 if the number is less than 0
 */
 int factorial(int n)
 {
