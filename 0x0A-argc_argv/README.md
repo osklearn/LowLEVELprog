@@ -5,7 +5,7 @@
 ## Description
 This project is about programming in C: Static liraries
 
-##Directory
+## Directory
 
 | Files | Description |
 | ----- | ----------- |
