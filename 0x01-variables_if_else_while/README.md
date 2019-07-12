@@ -7,6 +7,7 @@ This project is about programming in C
 
 ### Mandatory tasks
 | Files | Description |
+| ----- | ----------- |
 | [0-positive_or_negative.c](https://github.com/dalexach/holbertonschool-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c) | Print if the random number is positive or negative |
 | [1-last_digit.c](https://github.com/dalexach/holbertonschool-low_level_programming/blob/master/0x01-variables_if_else_while/1-last_digit.c) | Print the last digit of a number |
 | [2-print_alphabet.c](https://github.com/dalexach/holbertonschool-low_level_programming/blob/master/0x01-variables_if_else_while/2-print_alphabet.c) | Print an alphabet in lowercase |
