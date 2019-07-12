@@ -3,7 +3,7 @@
 ## Description
 This project is about programming in C
 
-##Directory
+## Directory
 
 | Files | Description |
 | ----- | ----------- |
