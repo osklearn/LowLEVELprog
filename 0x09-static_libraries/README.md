@@ -9,9 +9,9 @@ This project is about programming in C: Static liraries
 
 | Files | Description |
 | ----- | ----------- |
-| libholberton.a | Library containig all the functions listed |
+| libholberton.a | Static library containig all the functions listed |
 | create_static_lib.sh | script that crates a static library called liball.a from all the .c files that are in the current directory |
-| holberton.h | Library that contains all the prototyoe functions |
+| holberton.h | Library that contains all the prototype functions |
 
 ## Author
 
