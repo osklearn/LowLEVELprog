@@ -21,6 +21,8 @@ This project is about programming in C
 | [10-print_comb2.c](https://github.com/dalexach/holbertonschool-low_level_programming/blob/master/0x01-variables_if_else_while/10-print_comb2.c) | Print a combination of numbers from 00 to 99 |
 
 ### Advanced tasks
+| Files | Description |
+| ----- | ----------- |
 | [100-print_comb3.c](https://github.com/dalexach/holbertonschool-low_level_programming/blob/master/0x01-variables_if_else_while/100-print_comb3.c) | Print the combination of numbers from 0 to 98 without combination of numbers |
 | [101-print_comb4.c](https://github.com/dalexach/holbertonschool-low_level_programming/blob/master/0x01-variables_if_else_while/101-print_comb4.c) | Print the combination of 3 numbers withouth combinations |
 
