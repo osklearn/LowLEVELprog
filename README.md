@@ -16,6 +16,7 @@ This project is about programming in C
 | 0x06-pointers_arrays_strings | Second part of Pointers, arrays and strings |
 | 0x07-pointers_arrays_strings | Third part of Pointers, arrays and strings |
 | 0x08-recursion | Recursion with functions |
+| 0x09. C - Static libraries | Static libraries |
 
 ## Author
 
