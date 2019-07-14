@@ -10,13 +10,12 @@
 */
 int main(int argc, char *argv[])
 {
-	int i, sum, n;
+	int i, sum, num;
 
 	sum = 0;
 	if (argc < 1)
 	{
 		printf("%d\n", 0);
-		return (0);
 	}
 	while (argc-- && argc > 0)
 	{
@@ -32,8 +31,8 @@ int main(int argc, char *argv[])
 				return (1);
 			}
 		}
-		n = atoi(argv[argc]);
-		sum += n;
+		num = atoi(argv[argc]);
+		sum += num;
 	}
 	printf("%d\n", sum);
 	return (sum);
