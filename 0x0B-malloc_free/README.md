@@ -17,6 +17,8 @@ This project is about manipulating memory on our programs.
 | []() |  |
 
 ### Advanced Tasks
+| File | Description |
+| ------ | ------ |
 | []() |  |
 
 ## Author
