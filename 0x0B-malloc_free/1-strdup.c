@@ -29,5 +29,6 @@ char *_strdup(char *str)
 	{
 		cp[j] = str[j];
 	}
+
 	return (cp);
 }
