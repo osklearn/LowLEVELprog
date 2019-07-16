@@ -29,10 +29,6 @@ char *str_concat(char *s1, char *s2)
 	int i, j;
 	char *empty, *concat;
 
-	/**Calculating the length of the strings*/
-	l1 = _strlen(s1);
-	l2 = _strlen(s2);
-
 	/**lets make empty strings*/
 	empty = "";
 
@@ -42,10 +38,14 @@ char *str_concat(char *s1, char *s2)
 	if (s2 == NULL)
 		s2 = empty;
 
+	/**Calculating the length of the strings*/
+	l1 = _strlen(s1);
+	l2 = _strlen(s2);
+
 	/**assign memory*/
 	/**increments l2 for the null character*/
 	l2++;
-	concat = malloc((l1 + l2) * sizeof(char));
+	concat = malloc((l1 + l2) * sizeof(*concat));
 
 	/**verify if memory fails*/
 	if (concat == NULL)
