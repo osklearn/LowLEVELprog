@@ -9,6 +9,9 @@ void print_name(char *name, void (*f)(char *))
 {
 	void (*ptofunct)(char *);
 
+	if ( name == NULL || f == NULL)
+		return;
+
 	ptofunct = f;
 	ptofunct(name);
 }
