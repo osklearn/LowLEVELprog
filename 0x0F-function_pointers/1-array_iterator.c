@@ -12,7 +12,7 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 	void (*pact)(int);
 	size_t i;
 
-	if (array == NULL || action == NULL || size < 0)
+	if (array == NULL || action == NULL)
 		return;
 	pact = action;
 	for (i = 0; i < size; i++)
