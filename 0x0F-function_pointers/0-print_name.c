@@ -9,7 +9,7 @@
 */
 void print_name(char *name, void (*f)(char *))
 {
-	void (*ptofunct) (char *);
+	void (*ptofunct)(char *);
 
 	ptofunct = f;
 	ptofunct(name);
