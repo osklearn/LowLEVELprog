@@ -24,3 +24,4 @@ This project is about cariable arguments on functions.
 ## Author
 
 [Daniela Chamorro](https://www.linkedin.com/in/daniela-alexandra-chamorro-guerrero-666805a1/)
+[Twitter](https://twitter.com/dalexach)
