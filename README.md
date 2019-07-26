@@ -17,6 +17,15 @@ This project is about programming in C
 | 0x07-pointers_arrays_strings | Third part of Pointers, arrays and strings |
 | 0x08-recursion | Recursion with functions |
 | 0x09. C - Static libraries | Static libraries |
+| 0x0A-argc_argv | Learning about the arguments in the main |
+| 0x0B-malloc_free | Learning about the memory and how to expand a memory |
+| 0x0C-more_malloc_free | Second part of the memory |
+| 0x0D-preprocessor | Learning about the preprocessor |
+| 0x0E-structures_typedef | Learning about structures and typedef and how to use them |
+| 0x0F-function_pointers | Learning about pointer to functions and function pointers |
+| 0x10-variadic_functions | Learning about variadic functions |
+|  |  |
+|  |  |
 
 ## Author
 
