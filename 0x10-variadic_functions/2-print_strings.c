@@ -25,10 +25,10 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			printf("(nil)");
 		else
 			printf("%s", string);
-		if (i < (n - 1) && separator != '\0')
-			printf("%s", separator);
-		else
+		if (i == (n - 1) || separator == '\0')
 			continue;
+		else
+			printf("%s", separator);
 	}
 
 	va_end(strings);
