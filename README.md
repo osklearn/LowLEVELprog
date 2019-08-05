@@ -24,7 +24,7 @@ This project is about programming in C
 | 0x0E-structures_typedef | Learning about structures and typedef and how to use them |
 | 0x0F-function_pointers | Learning about pointer to functions and function pointers |
 | 0x10-variadic_functions | Learning about variadic functions |
-|  |  |
+| 0x12-singly_linked_list | Learning about data structure with linked lists |
 |  |  |
 
 ## Author
