@@ -13,21 +13,16 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 
 	if (*head == NULL)
 		return (-1);
-
 	len = 0;
 	go = *head;
-
 	while (go->next != NULL)
 	{
 		go = go->next;
 		len++;
 	}
-
 	if (index > len)
 		return (-1);
-
 	go = *head;
-
 	if (index == 0 && len != 0)
 	{
 		*head = go->next;
@@ -48,7 +43,6 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		go = go->next;
 		i++;
 	}
-
 	last->next = go->next;
 	free(go);
 	return (1);
