@@ -25,7 +25,6 @@ This project is about .
 
 ## Author
 
-[Daniela Chamorro](https://www.linkedin.com/in/daniela-alexandra-chamorro-guerr\
-ero-666805a1/)
+[Daniela Chamorro](https://www.linkedin.com/in/daniela-alexandra-chamorro-guerrero-666805a1/)
 
 [Twitter](https://twitter.com/dalexach)
