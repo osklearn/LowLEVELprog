@@ -2,7 +2,7 @@
 
 ## 0x14. C - Bit manipulation
 ### Description
-This project is about .
+This project is about how to mamipulate bits and use bitwise operators.
 
 
 ### Mandatory Tasks
@@ -16,12 +16,6 @@ This project is about .
 | [4-clear_bit.c](https://github.com/dalexach/holbertonschool-low_level_programming/tree/master/0x14-bit_manipulation/4-clear_bit.c) | Function that sets the value of a bit to 0 at a given index. |
 | [5-flip_bits.c](https://github.com/dalexach/holbertonschool-low_level_programming/tree/master/0x14-bit_manipulation/5-flip_bits.c) | Function that returns the number of bits you would need to flip to get from one number to another. |
 
-
-
-### Advanced Tasks
-| File | Description |
-| ------ | ------ |
-| []() |  |
 
 ## Author
 
