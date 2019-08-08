@@ -2,6 +2,7 @@
 #define _HOLBERTON_H
 
 #include <stdlib.h>
+#include <stdio.h>
 
 /*Functions*/
 int _putchar(char c);
