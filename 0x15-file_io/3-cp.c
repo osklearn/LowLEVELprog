@@ -57,7 +57,6 @@ int main(int argc, char **argv)
 {
 	int file_from = 0, file_to = 0, retvalue = 0;
 	int readvalue = 1024, closevalue = 0;
-	int length = 1024;
 	char buff[1024];
 
 	if (argc != 3)
@@ -72,13 +71,13 @@ int main(int argc, char **argv)
 		close(file_from);
 		print_error_write(argv[2]);
 	}
-	while (readvalue == length)
+	while (readvalue == 1024)
 	{
 		readvalue = read(file_from, buff, 1024);
 		if (readvalue < 0)
 			print_error_read(argv[1]);
-		retvalue = write(file_to, buff, length);
-		if (retvalue < length)
+		retvalue = write(file_to, buff, readvalue);
+		if (retvalue < readvalue)
 			print_error_write(argv[2]);
 	}
 	closevalue = close(file_from);
