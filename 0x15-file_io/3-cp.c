@@ -1,5 +1,46 @@
-#include "holberton.h"
-#define BUFFSIZE 1024
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+
+/**
+* print_error_close - prints the error when close
+*@file: name of the file
+*Return: Nothing
+*/
+
+void print_error_close(char *file)
+{
+	dprintf(STDERR_FILENO, "Error: Can't close fd %s\n", file);
+	exit(100);
+}
+
+/**
+* print_error_read - prints the error when read
+*@file: name of the file
+*Return: Nothing
+*/
+
+void print_error_read(char *file)
+{
+	dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file);
+	exit(98);
+}
+
+/**
+* print_error_write - prints the error when write
+*@file: name of the file
+*Return: Nothing
+*/
+
+void print_error_write(char *file)
+{
+	dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file);
+	exit(99);
+}
 
 /**
 * main - Program that copies the content of a file to another file
@@ -14,36 +55,37 @@
 
 int main(int argc, char **argv)
 {
-	int file_from, file_to, retvalue, readvalue;
-	char buff[BUFFSIZE];
+	int file_from = 0, file_to = 0, retvalue = 0;
+	int readvalue = 1024, closevalue = 0;
+	int length = 1024;
+	char buff[1024];
 
-	retvalue = 1;
 	if (argc != 3)
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n"), exit(97);
-	if (argv[1] == NULL)
-		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]), exit(98);
-	if (argv[2] == NULL)
-		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]), exit(99);
 	file_from = open(argv[1], O_RDONLY);
-	file_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH);
-	readvalue = read(file_from, buff, 1024);
-	if (readvalue == -1)
-		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]), exit(98);
-	while (readvalue != 0)
+	if (file_from < 0)
+		print_error_read(argv[1]);
+	file_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR
+		| S_IRGRP | S_IWGRP | S_IROTH);
+	if (file_to < 0)
 	{
-		retvalue = write(file_to, buff, 1024);
-		if (retvalue == -1)
-			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]), exit(99);
-		readvalue = read(file_from, buff, 1024);
-			if (readvalue == -1)
-				dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]), exit(98);
+		close(file_from);
+		print_error_write(argv[2]);
 	}
-
-	retvalue = close(file_from);
-	if (retvalue == -1)
-		dprintf(STDERR_FILENO, "Error: Can't close fd %s\n", argv[1]), exit(100);
-	retvalue = close(file_to);
-	if (retvalue == -1)
-		dprintf(STDERR_FILENO, "Error: Can't close fd %s\n", argv[2]), exit(100);
+	while (readvalue == length)
+	{
+		readvalue = read(file_from, buff, 1024);
+		if (readvalue < 0)
+			print_error_read(argv[1]);
+		retvalue = write(file_to, buff, length);
+		if (retvalue < length)
+			print_error_write(argv[2]);
+	}
+	closevalue = close(file_from);
+	if (closevalue < 0)
+		print_error_close(argv[1]);
+	closevalue = close(file_to);
+	if (closevalue < 0)
+		print_error_close(argv[2]);
 	return (0);
 }
