@@ -3,6 +3,9 @@
 ## Description
 This project is about Debugging
 
+## Files
+
+### Mandatory Tasks:
 | File | Description |
 | ---- | ----------- |
 | [0-main.c](https://github.com/dalexach/holbertonschool-low_level_programming/tree/master/0x03-debugging/0-main.c) | Print the correct of a Multiple mains |
@@ -13,6 +16,6 @@ This project is about Debugging
 
 ## Author
 
-[Daniela Chamorro](https://www.linkedin.com/in/daniela-alexandra-chamorro-guerrero-666805a1/)
+[Daniela Chamorro](https://www.linkedin.com/in/daniela-alexandra-chamorro-guerrero-666805a1/) [:octocat:](https://github.com/dalexach)
 
 [Twitter](https://twitter.com/dalexach)
