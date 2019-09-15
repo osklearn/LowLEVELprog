@@ -4,8 +4,8 @@
 ### Description
 This project is about how to mamipulate bits and use bitwise operators.
 
-
-### Mandatory Tasks
+## Files
+#### Mandatory Tasks
 
 | File | Description |
 | ------ | ------ |
@@ -19,6 +19,6 @@ This project is about how to mamipulate bits and use bitwise operators.
 
 ## Author
 
-[Daniela Chamorro](https://www.linkedin.com/in/daniela-alexandra-chamorro-guerrero-666805a1/)
+[Daniela Chamorro](https://www.linkedin.com/in/daniela-alexandra-chamorro-guerrero-666805a1/) [:octocat:](https://github.com/dalexach)
 
 [Twitter](https://twitter.com/dalexach)
