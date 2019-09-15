@@ -1,11 +1,11 @@
 # holbertonschool-low_level_programming
 
-## 0x0B. C - malloc, free
+## 0x0E. C - Structures, typedef
 ### Description
-This project is about manipulating memory on our programs.
+This project is about structures and typedef, how to create and add data.
 
-
-### Mandatory Tasks
+## Files
+#### Mandatory Tasks
 
 | File | Description |
 | ------ | ------ |
@@ -18,5 +18,6 @@ This project is about manipulating memory on our programs.
 
 ## Author
 
-[Daniela Chamorro](https://www.linkedin.com/in/daniela-alexandra-chamorro-guerrero-666805a1/)
+[Daniela Chamorro](https://www.linkedin.com/in/daniela-alexandra-chamorro-guerrero-666805a1/) [:octocat:](https://github.com/dalexach)
+
 [Twitter](https://twitter.com/dalexach)
