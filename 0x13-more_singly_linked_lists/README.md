@@ -4,8 +4,8 @@
 ### Description
 This project is about singly linked lists.
 
-
-### Mandatory Tasks
+## Files
+#### Mandatory Tasks
 
 | File | Description |
 | ------ | ------ |
@@ -21,16 +21,8 @@ This project is about singly linked lists.
 | [9-insert_nodeint.c](https://github.com/dalexach/holbertonschool-low_level_programming/blob/master/0x13-more_singly_linked_lists/9-insert_nodeint.c) | Function that inserts a new node at a given position. |
 | [10-delete_nodeint.c](https://github.com/dalexach/holbertonschool-low_level_programming/blob/master/0x13-more_singly_linked_lists/10-delete_nodeint.c) | Function that deletes the node at index index of a listint_t linked list. |
 
-
-
-
-### Advanced Tasks
-| File | Description |
-| ------ | ------ |
-| []() |  |
-
 ## Author
 
-[Daniela Chamorro](https://www.linkedin.com/in/daniela-alexandra-chamorro-guerrero-666805a1/)
+[Daniela Chamorro](https://www.linkedin.com/in/daniela-alexandra-chamorro-guerrero-666805a1/) [:octocat:](https://github.com/dalexach)
 
 [Twitter](https://twitter.com/dalexach)
