@@ -4,8 +4,8 @@
 ### Description
 This project is about manipulating memory on our programs. Second part
 
-
-### Mandatory Tasks
+### Files
+#### Mandatory Tasks
 
 | File | Description |
 | ------ | ------ |
@@ -15,7 +15,7 @@ This project is about manipulating memory on our programs. Second part
 | [3-array_range.c](https://github.com/dalexach/holbertonschool-low_level_programming/blob/master/0x0C-more_malloc_free/3-array_range.c) | Function that creates an array of integers. |
 
 
-### Advanced Tasks
+#### Advanced Tasks
 | File | Description |
 | ------ | ------ |
 | [100-realloc.c](https://github.com/dalexach/holbertonschool-low_level_programming/blob/master/0x0C-more_malloc_free/100-realloc.c) | Function that reallocates a memory block using malloc and free |
@@ -23,4 +23,7 @@ This project is about manipulating memory on our programs. Second part
 
 ## Author
 
-[Daniela Chamorro](https://www.linkedin.com/in/daniela-alexandra-chamorro-guerrero-666805a1/)
+[Daniela Chamorro](https://www.linkedin.com/in/daniela-alexandra-chamorro-guerrero-666805a1/) [:octocat:](https://github.com/dalexach)
+
+[Twitter](https://twitter.com/dalexach)
+
