@@ -4,8 +4,8 @@
 ### Description
 This project is about singly linked list.
 
-
-### Mandatory Tasks
+## Files
+#### Mandatory Tasks
 
 | File | Description |
 | ------ | ------ |
@@ -15,7 +15,8 @@ This project is about singly linked list.
 | [3-add_node_end.c]() | Function that adds a new node at the end of a list_t list. |
 | [4-free_list.c]() | Function that frees a list_t list. |
 
-## Author
+#### Author
 
-[Daniela Chamorro](https://www.linkedin.com/in/daniela-alexandra-chamorro-guerrero-666805a1/)
+[Daniela Chamorro](https://www.linkedin.com/in/daniela-alexandra-chamorro-guerrero-666805a1/) [:octocat:](https://github.com/dalexach)
+
 [Twitter](https://twitter.com/dalexach)
