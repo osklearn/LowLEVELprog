@@ -3,10 +3,10 @@
 ## 0x09. C - Static libraries
 
 ## Description
-This project is about programming in C: Static liraries
+This project is about programming in C: Static libraries.
 
-##Directory
-
+## Files
+### Mandatory tasks
 | Files | Description |
 | ----- | ----------- |
 | [libholberton.a](https://github.com/dalexach/holbertonschool-low_level_programming/blob/master/0x09-static_libraries/libholberton.a) | Static library containig all the functions listed |
@@ -15,4 +15,6 @@ This project is about programming in C: Static liraries
 
 ## Author
 
-[Daniela Chamorro](https://www.linkedin.com/in/daniela-alexandra-chamorro-guerrero-666805a1/)
+[Daniela Chamorro](https://www.linkedin.com/in/daniela-alexandra-chamorro-guerrero-666805a1/) [:octocat:](https://github.com/dalexach)
+
+[Twitter](https://twitter.com/dalexach)
