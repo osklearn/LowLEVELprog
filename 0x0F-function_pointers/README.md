@@ -2,10 +2,10 @@
 
 ## 0x0F. C - Function pointers
 ### Description
-This project is about manipulating memory on our programs.
+This project is about Function pointers and the difference on pointers to functions.
 
-
-### Mandatory Tasks
+## Files
+#### Mandatory Tasks
 
 | File | Description |
 | ------ | ------ |
@@ -17,12 +17,13 @@ This project is about manipulating memory on our programs.
 | [3-get_op_func.c](https://github.com/dalexach/holbertonschool-low_level_programming/blob/master/0x0F-function_pointers/3-get_op_func.c) | Function that redirect to the operating functions |
 | [3-calc.h]() | Header of the calculator |
 
-### Advanced Tasks
+#### Advanced Tasks
 | File | Description |
 | ------ | ------ |
 | [100-main_opcodes.c](https://github.com/dalexach/holbertonschool-low_level_programming/blob/master/0x0F-function_pointers/3-op_functions.c) | Program that prints the opcodes of its own main function. |
 
 ## Author
 
-[Daniela Chamorro](https://www.linkedin.com/in/daniela-alexandra-chamorro-guerrero-666805a1/)
+[Daniela Chamorro](https://www.linkedin.com/in/daniela-alexandra-chamorro-guerrero-666805a1/) [:octocat:](https://github.com/dalexach)
+
 [Twitter](https://twitter.com/dalexach)
