@@ -4,8 +4,8 @@
 ### Description
 This project is about manipulating files.
 
-
-### Mandatory Tasks
+## Files
+#### Mandatory Tasks
 
 | File | Description |
 | ------ | ------ |
@@ -17,6 +17,6 @@ This project is about manipulating files.
 
 ## Author
 
-[Daniela Chamorro](https://www.linkedin.com/in/daniela-alexandra-chamorro-guerrero-666805a1/)
+[Daniela Chamorro](https://www.linkedin.com/in/daniela-alexandra-chamorro-guerrero-666805a1/) [:octocat:](https://github.com/dalexach)
 
 [Twitter](https://twitter.com/dalexach)
