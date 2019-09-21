@@ -29,7 +29,7 @@ This project is about programming in C
 | [0x14-bit_manipulation](https://github.com/dalexach/holbertonschool-low_level_programming/tree/master/0x14-bit_manipulation) | Learning about bit manipulation |
 | [0x15-file_io](https://github.com/dalexach/holbertonschool-low_level_programming/tree/master/0x15-file_io) | Learning about file descriptors and how open, close, read and write a file |
 | [0x17-doubly_linked_lists](https://github.com/dalexach/holbertonschool-low_level_programming/tree/master/0x17-doubly_linked_lists) | Learning about doubly linked list |
-
+| [0x18-dynamic_libraries](https://github.com/dalexach/holbertonschool-low_level_programming/tree/master/0x18-dynamic_libraries) | Learning about Dynamic libraries, create and modify them |
 
 ## Author
 
