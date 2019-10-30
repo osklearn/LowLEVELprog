@@ -17,10 +17,10 @@ This project is about create and manage hash tables.
 | [5-hash_table_print.c ](5-hash_table_print.c ) | function that prints a hash table. |
 | [6-hash_table_delete.c ](6-hash_table_delete.c ) | function that deletes a hash table. |
 
-#### Advanced Tasks
-| File | Description |
+#### Directories
+| Directory | Description |
 | ------ | ------ |
-| []() |  |
+| [mains](mains) | Files to test the functions |
 
 ## Author
 
