@@ -24,7 +24,7 @@ This project is about sorting algorithms like: bubble, quick, insertion and sele
 
 ## Author
 
-[Daniela Chamorro](https://www.linkedin.com/in/daniela-alexandra-chamorro-guerrero-666805a1/) [:octocat:](https://github.com/dalexach)
+[Bárbara Calle](https://www.linkedin.com/in/b%C3%A1rbara-calle-7363a0164/) [:octocat:](https://github.com/dabrabgellak)
 
-[Twitter](https://twitter.com/dalexach)
+[Daniela Chamorro](https://www.linkedin.com/in/daniela-alexandra-chamorro-guerrero-666805a1/) [:octocat:](https://github.com/dalexach)
 
