@@ -31,6 +31,8 @@ This project is about programming in C
 | [0x17-doubly_linked_lists](https://github.com/dalexach/holbertonschool-low_level_programming/tree/master/0x17-doubly_linked_lists) | Learning about doubly linked list |
 | [0x18-dynamic_libraries](https://github.com/dalexach/holbertonschool-low_level_programming/tree/master/0x18-dynamic_libraries) | Learning about Dynamic libraries, create and modify them |
 | [0x1A-hash_tables](0x1A-hash_tables) | Learning about Hash tables |
+| [0x1B-sorting_algorithms](0x1B-sorting_algorithms) | Learning about the soring algorithms and big O notation |
+| [0x1C-makefiles](0x1C-makefiles) | Learning how to make files with Makefile and the rules |
 
 ## Author
 
